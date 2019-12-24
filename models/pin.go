@@ -6,7 +6,6 @@ type Pin struct {
 	Id           string      `json:"id"`
 	Link         string      `json:"link"`
 	Url          string      `json:"url"`
-	Creator      Creator     `json:"creator"`
 	Board        Board       `json:"board"`
 	Note         string      `json:"note"`
 	Color        string      `json:"color"`
