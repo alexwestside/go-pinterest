@@ -1,9 +1,11 @@
 package controllers
 
 import (
-	"github.com/BrandonRomano/wrecker"
-	"github.com/carrot/go-pinterest/models"
 	"strconv"
+
+	"github.com/BrandonRomano/wrecker"
+
+	"github.com/alexwestside/go-pinterest/models"
 )
 
 // MeSearchPinsController is the controller that is responsible for all

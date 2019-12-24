@@ -3,9 +3,11 @@ package controllers
 import (
 	"bufio"
 	"encoding/base64"
-	"github.com/BrandonRomano/wrecker"
-	"github.com/alexwestside/go-pinterest/models"
 	"os"
+
+	"github.com/BrandonRomano/wrecker"
+
+	"github.com/alexwestside/go-pinterest/models"
 )
 
 // PinsController is the controller that is responsible for all

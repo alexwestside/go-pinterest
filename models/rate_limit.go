@@ -1,9 +1,9 @@
 package models
 
 import (
+	"fmt"
 	"net/http"
 	"strconv"
-	"fmt"
 )
 
 type TypeRatelimit struct {
@@ -25,10 +25,9 @@ func GetLimit(httpResp *http.Response, key string) int {
 }
 
 func GetRatelimit(httpResp *http.Response) TypeRatelimit {
-	return TypeRatelimit {
+	return TypeRatelimit{
 		Remaining: GetLimit(httpResp, "X-Ratelimit-Remaining"),
-		Limit: GetLimit(httpResp, "X-Ratelimit-Limit"),
-		Refresh: GetLimit(httpResp, "X-Ratelimit-Refresh"),
+		Limit:     GetLimit(httpResp, "X-Ratelimit-Limit"),
+		Refresh:   GetLimit(httpResp, "X-Ratelimit-Refresh"),
 	}
 }
-

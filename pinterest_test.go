@@ -6,11 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/carrot/go-pinterest"
-	"github.com/carrot/go-pinterest/controllers"
-	"github.com/carrot/go-pinterest/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
+
+	"github.com/alexwestside/go-pinterest"
+	"github.com/alexwestside/go-pinterest/controllers"
+	"github.com/alexwestside/go-pinterest/models"
 )
 
 // In order for 'go test' to run this suite, we need to create

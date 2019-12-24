@@ -4,7 +4,8 @@ import (
 	"strconv"
 
 	"github.com/BrandonRomano/wrecker"
-	"github.com/carrot/go-pinterest/models"
+
+	"github.com/alexwestside/go-pinterest/models"
 )
 
 // MeFollowingUsersController is the controller that is responsible for all
