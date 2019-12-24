@@ -389,8 +389,6 @@ func (suite *ClientTestSuite) TestSuccessfulBoardPinsFetch() {
 	firstPin := (*pins)[0]
 	assert.Equal(suite.T(), firstPin.Note, "Go Gopher Toy by Sean Tasdemir — Kickstarter")
 	assert.Equal(suite.T(), firstPin.Board.Name, "Go Pinterest!")
-	assert.Equal(suite.T(), firstPin.Creator.FirstName, "Brandon")
-	assert.Equal(suite.T(), firstPin.Creator.FirstName, "Brandon")
 }
 
 // TestNotFoundBoardPinsFetch tests that a 404 is thrown
@@ -454,8 +452,6 @@ func (suite *ClientTestSuite) TestSuccessfulPinsFetch() {
 	assert.Equal(suite.T(), nil, err)
 	assert.Equal(suite.T(), "Go Pinterest!", pin.Board.Name)
 	assert.Equal(suite.T(), "The Go Gopher - The Go Blog", pin.Note)
-	assert.Equal(suite.T(), "Brandon", pin.Creator.FirstName)
-	assert.Equal(suite.T(), "Romano", pin.Creator.LastName)
 }
 
 // TestNotFoundPinsFetch tests that a 404 is thrown when we try
