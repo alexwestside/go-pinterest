@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"encoding/base64"
 	"github.com/BrandonRomano/wrecker"
-	"github.com/carrot/go-pinterest/models"
+	"github.com/alexwestside/go-pinterest/models"
 	"os"
 )
 
