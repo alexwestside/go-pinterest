@@ -1,7 +1,7 @@
 github.com/BrandonRomano/iso8601 v0.1.0 h1:XPxC9vfnx9+AFaiU+E9m2903l8gZKRC4ctsPkTIihrY=
 github.com/BrandonRomano/iso8601 v0.1.0/go.mod h1:s1lh194voQHeKsbMkUyNBoxX+T3y8uhT+LxIOTGV2WE=
-github.com/BrandonRomano/wrecker v0.1.4 h1:QhC9oTDRQ1jKOB3PPDI/DC9TdeFPTAm9B9KQ2WGWBr8=
-github.com/BrandonRomano/wrecker v0.1.4/go.mod h1:MigsLcX2kctd4snNphVs2mTSVqWIo2LKVnDJT+qejKE=
+github.com/BrandonRomano/wrecker v0.1.5 h1:2i2PJpbiyjJqmi/rZkNaKFOqMzoHWdqQhJV8Oo7xBTo=
+github.com/BrandonRomano/wrecker v0.1.5/go.mod h1:MigsLcX2kctd4snNphVs2mTSVqWIo2LKVnDJT+qejKE=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
