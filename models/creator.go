@@ -1,5 +1,6 @@
 package models
 
+// Deprecated
 type Creator struct {
 	Url       string `json:"url"`
 	FirstName string `json:"first_name"`
