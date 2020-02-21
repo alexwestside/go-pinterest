@@ -53,7 +53,7 @@ func (bc *BoardsController) Create(boardName string, optionals *BoardCreateOptio
 	// Build + execute request
 	resp := new(models.Response)
 	resp.Data = new(models.Board)
-	httpResp, err := bc.wreckerClient.Post("/boards/").
+	httpResp, err := bc.wreckerClient.Patch("/boards/").
 		URLParam("fields", models.BOARD_FIELDS).
 		FormParam("name", boardName).
 		FormParam("description", optionals.Description).
